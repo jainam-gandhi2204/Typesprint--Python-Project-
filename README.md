@@ -1,16 +1,19 @@
-# ⚡ TypeSprint - Typing Speed Tracker & Tester
+#  TypeSprint - Typing Speed Tracker & Tester
+
+## Name : Jainam Gandhi 
+## Ernollment no. 12402080601049
 
 A modern, desktop-based Typing Speed & Accuracy Tracker built in Python using **Tkinter**, **Object-Oriented Programming (OOP)**, and **JSON File Handling**.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Real-Time Character Highlighting**:
-  - 🟢 **Green**: Correct characters.
-  - 🔴 **Red & Underline**: Mismatched/incorrect characters.
-  - 🟡 **Yellow**: Current cursor character.
-  - ⚪ **Muted Gray**: Remaining untyped text.
+  - **Green**: Correct characters.
+  - **Red & Underline**: Mismatched/incorrect characters.
+  - **Yellow**: Current cursor character.
+  -  **Muted Gray**: Remaining untyped text.
 * **Live Dynamic Metrics**:
   - **WPM (Words Per Minute)**: Standard formula based on $((\text{correct characters} / 5) / \text{time in minutes})$.
   - **Accuracy (%)**: Real-time percentage of accurate keystrokes.
@@ -24,7 +27,7 @@ A modern, desktop-based Typing Speed & Accuracy Tracker built in Python using **
   - **Easy**: Short, simple everyday sentences.
   - **Medium**: Conversational and descriptive phrases.
   - **Hard**: Complex vocabulary, technical terms, and varied punctuation.
-* **📊 Performance Tracking & History**:
+* ** Performance Tracking & History**:
   - Automatically saves all your past sessions to `typing_history.json`.
   - Open the **History & Stats** dashboard to view:
     - **Personal Best WPM**
@@ -32,14 +35,14 @@ A modern, desktop-based Typing Speed & Accuracy Tracker built in Python using **
     - **Average Accuracy**
     - **Total Tests Completed**
     - Formatted table of recent test attempts with timestamps.
-* **🏆 Results Dialog**:
+* ** Results Dialog**:
   - Provides a performance summary and rating badge after each test.
 * **Keyboard Shortcuts**:
   - `Ctrl + R`: Instant reset / load next sentence.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── main.py              # Main Tkinter GUI application & event loop
@@ -51,7 +54,7 @@ A modern, desktop-based Typing Speed & Accuracy Tracker built in Python using **
 
 ---
 
-## 🛠️ Requirements & How to Run
+##  Requirements & How to Run
 
 ### Requirements
 - **Python 3.8+** (Uses Python's built-in `tkinter` and standard libraries — **no external `pip` install required!**)
@@ -65,7 +68,7 @@ python main.py
 
 ---
 
-## 📚 Concepts & Technologies Used
+##  Concepts & Technologies Used
 - **Tkinter GUI**: Canvas, Frames, Text Widgets with custom tag styling, Treeview table, Combobox, and Toplevel modal dialogs.
 - **Object-Oriented Programming (OOP)**: Clean separation of UI classes, history management, and modular architecture.
 - **String Manipulation**: Real-time character comparison, indexing, and slicing.
